@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { OverviewTableComponent } from './overview-table.component';
 
@@ -6,7 +6,7 @@ describe('OverviewTableComponent', () => {
   let component: OverviewTableComponent;
   let fixture: ComponentFixture<OverviewTableComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ OverviewTableComponent ]
     })

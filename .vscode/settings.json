@@ -1,0 +1,13 @@
+{
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.suggest.completeFunctionCalls": true,
+    "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "editor.detectIndentation": false,
+    "tslint.alwaysShowRuleFailuresAsWarnings": false,
+    "tslint.ignoreDefinitionFiles": true,
+    "git.autofetch": true,
+    "editor.formatOnSave": true
+}

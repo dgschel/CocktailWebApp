@@ -1,0 +1,4 @@
+<ng-container [matColumnDef]="column" *ngTemplateOutlet="columnDef">
+  <mat-header-cell *matHeaderCellDef>{{ column }}</mat-header-cell>
+  <mat-cell *matCellDef="let item">{{ item[column] }}</mat-cell>
+</ng-container>

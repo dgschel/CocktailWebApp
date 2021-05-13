@@ -1,0 +1,28 @@
+.mat-list-base {
+    padding: 0;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+    vertical-align: middle;
+}
+
+.mat-toolbar {
+    background-color: #fff;
+    max-width: 1024px;
+    margin: auto;
+    padding: 0;
+}
+
+header, nav {
+    width: 100%;
+    height: inherit;
+    align-items: center;
+}
+
+nav {
+    padding: 0 16px;
+}
